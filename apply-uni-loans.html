@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Apply Uni Loans</title>
+  <link rel="stylesheet" href="css/apply-uni-loans.css" />
+</head>
+<body>
+  <section class="hero anim-init" id="hero">
+    <div class="hero__media" aria-hidden="true">
+      <img
+        class="hero__plate"
+        src="https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/e858a5ce-3511-4e13-baeb-c179c909bc62.webp"
+        alt=""
+        width="1728"
+        height="1080"
+        fetchpriority="high"
+      />
+      <video
+        class="hero__video"
+        id="heroVideo"
+        muted
+        loop
+        playsinline
+        autoplay
+        width="1152"
+        height="720"
+        poster="https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/e858a5ce-3511-4e13-baeb-c179c909bc62.webp"
+      >
+        <source
+          src="https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/ac216b5a-e869-4b3a-bf7b-aec877a020e4.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+    <div class="hero__scrim hero__scrim--top"></div>
+    <div class="hero__scrim hero__scrim--bottom"></div>
+
+    <div class="hero__ui">
+      <header class="topbar anim-topbar">
+        <div class="topbar__brand-col">
+        <a class="brand" href="#" aria-label="Apply Uni Loans">
+          <svg class="brand__mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="glintGrad" x1="4" y1="4" x2="28" y2="28" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#cdf531"/>
+                <stop offset="1" stop-color="#a6dc00"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#glintGrad)" d="M3 4.5h20v3.5h8v3.5H3V4.5zm0 7h15v3.5h6.5v3.5H3v-7zm0 7h19v3.5h7.5v3.5H3v-7zm0 7h12v3.5h5v3.5H3V25.5z"/>
+          </svg>
+          <span class="brand__name">Apply Uni Loans</span>
+        </a>
+        </div>
+
+        <nav class="topbar__nav topbar__nav--desktop" aria-label="Primary">
+          <a class="nav-pill" href="#benefits">Benefits</a>
+          <a class="nav-pill" href="#perks">Perks</a>
+          <a class="nav-pill" href="#insights">Insights</a>
+        </nav>
+
+        <div class="topbar__actions">
+          <div class="topbar__mobile-wrap">
+            <button
+              type="button"
+              class="burger"
+              id="burger"
+              aria-expanded="false"
+              aria-controls="mobileMenu"
+              aria-label="Open menu"
+            >
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+            </button>
+            <div class="mobile-menu" id="mobileMenu" role="menu" hidden>
+              <a role="menuitem" href="#benefits">Benefits</a>
+              <a role="menuitem" href="#perks">Perks</a>
+              <a role="menuitem" href="#insights">Insights</a>
+              <a role="menuitem" href="#claim">Claim Your Spot!</a>
+            </div>
+          </div>
+          <button type="button" class="btn-outline topbar__cta--desktop">Claim Your Spot!</button>
+        </div>
+      </header>
+
+      <h1 class="headline anim-headline">
+        <span class="headline__line"><span>We already</span></span>
+        <span class="headline__line"><span>found your</span></span>
+        <span class="headline__line"><span>one card</span></span>
+      </h1>
+
+      <div class="pitch">
+        <p class="pitch__text anim-pitch">
+          The claw only ever grabs the same card – because it's the only card that really pays you back.
+        </p>
+        <div class="pitch__actions anim-pitch-actions">
+          <button type="button" class="btn-primary">Claim Your Spot!</button>
+          <button type="button" class="btn-arrow" aria-label="Learn more">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14M13 6l6 6-6 6"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero__scene-spacer" aria-hidden="true"></div>
+
+      <p class="tagline anim-tagline">
+        For people who<br />
+        actually watch every<br />
+        receipt.
+      </p>
+
+      <div class="stats anim-stats">
+        <div class="stat-tile">
+          <div class="stat-tile__value">0%</div>
+          <div class="stat-tile__label">APR for 18 months</div>
+        </div>
+        <div class="stat-tile">
+          <div class="stat-tile__value">5%</div>
+          <div class="stat-tile__label">Cashback always</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/apply-uni-loans.js" defer></script>
+</body>
+</html>
